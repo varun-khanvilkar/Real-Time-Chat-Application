@@ -1,0 +1,17 @@
+.messages {
+    padding: 0% 0%;
+    overflow: auto;
+    flex: auto;
+    width: 30%;
+    background-color:#b3e4f3;
+  }
+
+.styling {
+  display: flex;
+  flex: auto;
+  overflow: auto;
+  flex-direction: row;
+  height: 100%;
+  position: relative;
+
+}

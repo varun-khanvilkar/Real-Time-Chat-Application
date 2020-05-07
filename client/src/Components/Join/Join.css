@@ -1,0 +1,97 @@
+.joinoutercontainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    background-color:#bed6dd;
+
+}
+.joininnercontainer {
+    width: 45%;
+    box-shadow: 5px 3px 3px 5px rgba(0, 0, 0, 0.2);
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    background-color: white;
+}
+
+.heading {
+    color: black;
+    border-bottom: 2px solid black;
+    font-size: 50px;
+    margin-bottom: 10px;
+    width: 80%;
+}
+
+.joininput {
+    width: 80%;
+    border: none;
+    background: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 0px;
+    outline: none;
+    color: rgba(0, 0, 0, 0.884) solid;   
+    font-size: 1.2rem;
+    margin: 13px;
+}
+
+input[type="text"] {
+    font-size: 20px;
+    color: black;
+    padding: 10px 0px;   
+}
+
+.joininput:focus {
+    border-bottom: 2px solid rgba(8, 82, 241, 0.7);
+}
+
+.button {
+    color: black ;
+    padding: 15px 20px;
+    font-size: medium;
+    border: none;
+    display: inline-block;
+    font-weight: 400;
+    background: transparent;
+    border: 1px solid rgba(69, 69, 182,0.75);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.button:hover{
+    background-color:rgba(69, 69, 182,0.60);
+    cursor: pointer;
+    color: white;
+    box-shadow: 3px 5px 5px 3px rgba(0, 0, 0, 0.2);
+}
+
+@media(max-width: 1000px) {
+    .heading {
+        font-size: 35px;
+    }   
+
+    input[type="text"] {
+        font-size: 1.2rem;
+        color: black;
+        padding: 5px 0px;  
+    }
+
+    .joininnercontainer {
+        width: 75%;
+        height: 45%;
+    }
+
+    .button {
+        padding: 10px 10px;
+        background-color: rgba(69, 69, 182,0.60);
+        color: white;
+    }
+
+    .heading {
+        margin-bottom: 20px;
+    }
+
+}

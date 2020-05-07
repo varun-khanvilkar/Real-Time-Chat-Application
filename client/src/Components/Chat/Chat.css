@@ -1,0 +1,29 @@
+.outerContainer {
+    background-color:lightseagreen;
+    height: 98vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    background-color:white;
+    width: 55%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 65%;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 5px 10px 10px 5px rgba(0, 0, 0, 0.3);
+}
+
+
+@media(max-width: 1000px) {
+    .container {
+        height: 70%;
+        width: 75%;
+    }
+}
+

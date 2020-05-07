@@ -1,0 +1,55 @@
+.sideDrawer {
+    position: absolute;
+    width: 150px;
+    height: 100%;
+    z-index: 200;
+    transition: transform 0.4s ease-in-out;
+    background-color:#2d65ad;
+    word-wrap: break-word;
+}
+
+.sideInnerDrawer {
+    color: black;
+    background-color:#2d65ad;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 0%;
+    padding-bottom: 0px;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding-top: 20%;
+    position: relative;
+}
+
+.Close-icon {
+    position: absolute;
+    top: 15%;
+    right: 12%;
+    background: transparent;
+}
+
+.sideUserList {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1.2rem;
+    margin-top: 5px;
+    word-wrap: break-word;
+}
+
+.Close{
+    transform: translateX(-100%);
+}
+
+.Open {
+    transform: translateX(0%);
+}
+
+@media (min-width : 1000px) {
+    .sideDrawer {
+        display: none;
+    }
+}
