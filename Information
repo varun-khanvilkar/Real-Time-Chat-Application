@@ -1,3 +1,19 @@
 React and Socket.io based Chat Application.
 Desktop application.
 Not 100% responsive on mobile devices.
+
+Steps to run the Application
+-----------------------------
+1. Go to client folder
+2. Inside Client folder go to Components/Chat
+    cd /src/Components/Chat/Chat.js
+3. Change ENDPOINT variable 
+    const ENDPOINT = 'localhost:5000';  (if required)
+4. open new terminal
+5. Go to server folder
+6. Run Server
+    npm start
+7. Go to client folder
+8. Run Client
+    npm start
+9. Vist localhost 5000 on browser to see the Application.
