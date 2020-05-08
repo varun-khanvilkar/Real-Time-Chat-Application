@@ -2,6 +2,8 @@ React and Socket.io based Chat Application.
 Desktop application.
 Not 100% responsive on mobile devices.
 
+NOTE : install node module if not installed. It is not upload on github 
+
 Steps to run the Application
 -----------------------------
 1. Go to client folder
