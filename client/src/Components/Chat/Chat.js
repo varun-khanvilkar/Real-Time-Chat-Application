@@ -6,7 +6,6 @@ import Input from '../Input/Input';
 import InfoBar from '../InfoBar/InfoBar';
 import Messages from '../Messages/Messages';
 import SideDrawer from '../SideDrawer';
-import { KeyboardAvoidingView } from 'react-native';
 
 let socket;
 
